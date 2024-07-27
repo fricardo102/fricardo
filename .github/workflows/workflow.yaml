@@ -1,8 +1,9 @@
 name: Continuos Integration
-on: pull_request
+on:
+  pull_request:
+    branches:
+      ['main','qas','dev']
 #
-##
-
 jobs:
   continuos-integration:
     runs-on: ubuntu-latest
