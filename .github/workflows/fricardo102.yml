@@ -2,7 +2,7 @@ name: Continuos Integration
 on:
   pull_request:
     branches:
-      ['main','qas','dev']
+      ['main','qas','desenvolvimento']
 #
 jobs:
   continuos-integration:
